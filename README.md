@@ -48,4 +48,6 @@ Initialize the autocomplete functionality on the input element using **Javascrip
 ## Change log
 
  - ### Version 1.0 beta – 2017/05/31
-		* First release
+	
+	* First release
+		
