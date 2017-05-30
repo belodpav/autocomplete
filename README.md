@@ -37,5 +37,12 @@ Initialize the autocomplete functionality on the input element using **Javascrip
 ```
 ## Settings
 
+| Property | Default | Description |
+| :--- | :--- | :--- |
+| inputSelector | blank string "" | Required a selector for text input field |
+| data | [] | An array with suggestions |
+
+
+
 ## Change log
 
