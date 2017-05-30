@@ -42,8 +42,7 @@ Initialize the autocomplete functionality on the input element using **Javascrip
 | inputSelector | blank string "" | Required a selector for text input field |
 | data | [] | An array with suggestions |
 | maxItemsBox | 5 | Max number of suggestions in visible part of suggestions box |
-| findSuggestions | function | A function what get on input current input value and give on output an array with suggestions. **Default**:
-```javascript
+| findSuggestions | function | A function what get on input current input value and give on output an array with suggestions. **Default**:```javascript
 	findSuggestions : function(currentValue, dataList) {
 		var suggestionsList = [];
 		currentValue = currentValue.toLowerCase();
