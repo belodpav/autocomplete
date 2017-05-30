@@ -1,11 +1,21 @@
 # Autocomplete
+
 A lightweight and easy to use JavaScript completion suggester
+
 ![](screenshot.gif)
-# How to install
 
-# Usage
+## How to install
 
-# Settings
+Add autocomplete.js and autocomplete.css files to your page(or autocomplete.min.js and autocomplete.min.css). You can change some of the styling in autocomplete.css to suit your needs.
 
-# Change log
+## Usage
+
+Create an input element with an id attribute:
+
+'''html
+	<input id='input-country' type="text">
+'''
+## Settings
+
+## Change log
 
