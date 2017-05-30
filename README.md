@@ -15,6 +15,26 @@ Create an input element with an id attribute:
 ```html
 	<input id='input-country' type="text">
 ```
+
+Initialize the autocomplete functionality on the input element using Javascript:
+
+```javascript
+	autoComplete({
+		inputSelector : '#input-country',
+		data: [
+			'China',
+			'Moroco',
+			'USA',
+			'Canada',
+			'Thailand',
+			'Russia',
+			'Italy',
+			'Germany',
+			'Ukraine',
+			'Turkey'
+		]
+	});
+```
 ## Settings
 
 ## Change log
