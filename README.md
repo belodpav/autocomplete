@@ -12,9 +12,9 @@ Add autocomplete.js and autocomplete.css files to your page(or autocomplete.min.
 
 Create an input element with an id attribute:
 
-'''html
+```html
 	<input id='input-country' type="text">
-'''
+```
 ## Settings
 
 ## Change log
