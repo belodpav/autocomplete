@@ -1,0 +1,26 @@
+/* Suggestions Box */
+.suggestions-box {
+    position: absolute;
+    z-index: 999999;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    border-top: none;
+    box-shadow: 0 2px 2px 0px #f2f2f2;
+    
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/* Suggesstion Item within Suggestion Box */ 
+.suggestions-box-item {
+    padding: 0 15px;
+    line-height: 30px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.suggestions-box-item.selected {
+    background-color: #f9f9f9;
+}
+.suggestions-box-item b {
+    font-weight: 700;
+}

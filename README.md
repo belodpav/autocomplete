@@ -4,6 +4,9 @@ A lightweight and easy to use JavaScript completion suggester
 
 ![](screenshot.gif)
 
+## Demo
+
+Visit [the page](http://belodpav.com/works/workslist/autocomplete/) to know more about Autocomplete suggester. 
 ## How to install
 
 Add **autocomplete.js** and **autocomplete.css** files to your page(or **autocomplete.min.js** and **autocomplete.min.css**). You can change some of the styling in **autocomplete.css** to suit your needs.
