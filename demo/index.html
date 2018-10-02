@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AutoComplete Demo</title>
+    <link rel="stylesheet" href="autocomplete.min.css">
+    <style type="text/css">
+      body{
+        font-family: Verdana;
+        text-align: center;
+      }
+      hr{
+        max-width: 120px;
+        border: 2px solid #00bcd4;
+        margin-bottom: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AutoComplete</h1>
+    <hr>
+    <p>Start to type here and see what happens:</p>
+    <b>Your country:</b> <input id='input-country' type="text" placeholder="Country...">
+    <script src="autocomplete.min.js" charset="utf-8"></script>
+    <script src="countrylist.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      autoComplete({
+        inputSelector : '#input-country',
+        data: countrylist,
+        maxItemsBox: 10        
+      });
+    </script>
+  </body>
+</html>
